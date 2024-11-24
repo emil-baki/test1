@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эвакуатор - Услуги</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Эвакуатор</h1>
+        <nav>
+            <ul>
+                <li><a href="#services" class="nav-button">Услуги</a></li>
+                <li><a href="#about" class="nav-button">О нас</a></li>
+                <li><a href="#contact" class="nav-button">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="slide1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="slide2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="slide3.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <h2>Нужен эвакуатор?</h2>
+        <p>Мы предоставляем качественные услуги эвакуации по доступным ценам!</p>
+        <button id="call-button">Позвонить</button>
+    </section>
+
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="service">
+            <h3>Эвакуация автомобилей</h3>
+            <p>Мы быстро и безопасно эвакуируем ваши автомобили.</p>
+        </div>
+        <div class="service">
+            <h3>Круглосуточная поддержка</h3>
+            <p>Вы можете обращаться к нам в любое время суток.</p>
+        </div>
+        <div class="service">
+            <h3>Транспортировка мотоциклов</h3>
+            <p>Эвакуация мотоциклов с соблюдением всех норм.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы - команда профессионалов, готовая помочь вам в любой ситуации.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Телефон: <a href="tel:+996700070013">+996 (700) 07-00-13</a></p>
+        <p>Email: <a href="mailto:info@evacuator.ru">howtormd@mail.com</a></p>
+        <div class="social-links">
+            <a href="https://instagram.com" target="_blank" class="social-button"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me" target="_blank" class="social-button"><i class="fab fa-telegram"></i></a>
+            <a href="https://facebook.com" target="_blank" class="social-button"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Эвакуатор. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
